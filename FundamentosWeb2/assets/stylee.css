@@ -1,38 +1,46 @@
 /*Estilos da página index.html*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 
 body{
-    background: linear-gradient(to bottom, NavajoWhite, MediumOrchid, MediumSpringGreen );
+    background:url(/FundamentosWeb2/assets/img/11.jpg);
 
 }
 
+* {
+    text-decoration: none;
+    font-family: 'M PLUS 1','Gill Sans';
+
+}
 .center {
     text-align: center;
 }
-
+.justify{
+    text-align: justify;
+ }
 .container{
     display: flex;
     flex-flow: row ;
     justify-content: center;
     align-items: center;
 }
-#menu li{
+.menu li{
     display: inline;
     padding: 15px;
-    text-decoration: none;
 }
 
-#menu li a{
+.menu li a{
     text-decoration: none;
-    color:red;
-    font-size:30px;
+    color:navy;
+    font-size:20px;
 
 }
-#menu  li a:hover {
-    color:gray;
+.menu  li a:hover {
+    color: gray;
 }
 
 .p-30{
     padding: 30px;
+    color:navy;
 }
 
 .br-50{
@@ -49,7 +57,15 @@ body{
     height:30px;
 }
 
+.tm-social {
+    width: 50px;
+    height: 50px;
+}
 .tm-img{
     width: 70px;
     height:80px;
 }
+.mb-50{
+    margin-bottom: 50px;
+ }
+

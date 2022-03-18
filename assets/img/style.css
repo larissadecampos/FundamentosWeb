@@ -57,17 +57,24 @@ background: linear-gradient(to bottom, NavajoWhite, MediumOrchid, MediumSpringGr
     flex-flow: row;
     justify-content: center;
     text-align: justify;
-    padding-left: 90px;
-    padding-right: 90px;
+    /*padding-left: 90px;
+    padding-right: 90px;*/
 }
 
-.container img {
-    width: 400px;
+.containerimg {
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
     height: auto;
-    padding-left: 400px;
-    padding-right: 400px;
+ 
   }
+
+  .containerimg img{
+    margin-left:1.3em ;
+  }
+
 /*<style>
+    width: 30px;
 h1 {
     color:brown;
     text-align: center;
