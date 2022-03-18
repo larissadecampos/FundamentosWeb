@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+
+body {
+background: linear-gradient(to bottom, NavajoWhite, MediumOrchid, MediumSpringGreen );
+
+}
+
+
+* {
+    text-decoration: none;
+    font-family: 'M PLUS 1','Gill Sans';
+}
+#body{
+    background-color: lightpink;
+    color:lightcoral;
+}
+
+#menu ul li {
+    display: inline;
+    font-size: 20px;
+    font-weight:600px;
+    padding: 125px;
+
+}
+
+#menu ul li a {
+    color: white;
+}
+
+#menu ul li a:hover{
+    color: SandyBrown	;
+}
+
+#titulo{
+    color:white;
+    text-align: center;
+    font-size: 100px;
+}
+
+#titulo:hover {
+    color: NavajoWhite	;
+}
+
+#texto{
+    color:black;
+    text-align: center;
+    font-size: 25px;
+}
+.centralizar{
+   text-align: center;
+   align-items:center;
+}
+
+.container{
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.container img {
+    width: 400px;
+    height: auto;
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+/*<style>
+h1 {
+    color:brown;
+    text-align: center;
+}
+#titulo2 {
+    color:rgb(24, 20, 20);
+    text-align: center;
+}
+</style>*/
+
+
+/*
+Estilos da página Contato
+*/
